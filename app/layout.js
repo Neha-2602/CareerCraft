@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     >
       <html lang="en" suppressHydrationWarning>
         <head>
-          <link rel="icon" href="/logo1.png" sizes="any" />
+          <link rel="icon" href="/logo.png" sizes="any" />
         </head>
         <body className={`${inter.className}`}>
           <ThemeProvider
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
 
             <footer className="bg-muted/50 py-12">
               <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>Made with ❤︎ by Priya Gupta</p>
+                <p>Made with ❤︎ by Sanjay Gupta</p>
               </div>
             </footer>
           </ThemeProvider>
